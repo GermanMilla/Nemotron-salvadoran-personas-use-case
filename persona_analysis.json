@@ -1,0 +1,106 @@
+{
+  "persona_summary": {
+    "age": "29",
+    "sex": "Masculino",
+    "location": "Ahuachapán Sur, El Salvador",
+    "occupation": "Agente de viajes",
+    "fitness_context": "Occasional and unstructured physical activity; interest in gym (weights/cardio), cycling, and football, but lacks a consistent routine.",
+    "nutrition_context": "High consumption of traditional Salvadoran foods (pupusas, tamals, yuca) and local favorites like coffee and pan de yuca; prefers inland/earthy flavors.",
+    "lifestyle_context": "Urban, sedentary-leaning due to gaming and TV habits; prefers solo or low-commitment activities; spontaneous and avoids complex schedules."
+  },
+  "fitness_signals": [
+    "Interest in weight training and cardio",
+    "Occasional running/jogging",
+    "Interest in mountain biking and urban cycling",
+    "Interest in football (soccer) as a spectator and occasional player",
+    "Preference for solo-oriented physical activities"
+  ],
+  "nutrition_signals": [
+    "High preference for pupusas (cheese, loroco, chicharrón)",
+    "Consumption of traditional staples (tamales, casamiento, yuca)",
+    "Preference for local coffee and pan de yuca",
+    "Avoidance of seafood/coastal cuisine",
+    "Social consumption of beer during leisure time"
+  ],
+  "barriers": [
+    "Lack of established fitness routine",
+    "High susceptibility to distractions",
+    "Preference for spontaneous rather than scheduled activities",
+    "Sedentary leisure habits (gaming, TV, mobile use)",
+    "Low tolerance for complex or administrative-heavy processes"
+  ],
+  "motivators": [
+    "Interest in local/regional routes (Ahuachapán/Ataco)",
+    "Personal interest in weight/cardio progress",
+    "Low-pressure, solo-focused engagement",
+    "Integration of local cultural/food identity"
+  ],
+  "recommended_feature_tags": [
+    "Low-friction",
+    "Spontaneous-friendly",
+    "Localized Nutrition",
+    "Solo-centric",
+    "Gamified Progress"
+  ],
+  "p0_features": [
+    {
+      "feature": "Quick-Log Salvadoran Nutrition",
+      "why_it_matters": "He consumes traditional foods that are often hard to track in global apps; easy logging reduces friction for someone who avoids complex tasks.",
+      "related_persona_signal": "Enjoys pupusas, tamales, and yuca; avoids complex paperwork."
+    },
+    {
+      "feature": "No-Routine/Spontaneous Workout Generator",
+      "why_it_matters": "Since he lacks a routine and is easily distracted, the app should offer 'on-the-fly' workouts based on available time.",
+      "related_persona_signal": "Does running/cycling without a routine; prefers spontaneous activities."
+    }
+  ],
+  "p1_features": [
+    {
+      "feature": "Local Route Discovery (Ahuachapán/Ataco)",
+      "why_it_matters": "Leverages his existing interest in local geography and cycling/running.",
+      "related_persona_signal": "Likes cycling in Ahuachapán and visiting Ataco/mountains."
+    },
+    {
+      "feature": "Weight & Cardio Progress Tracker",
+      "why_it_matters": "Directly addresses his stated interest in gym-based training.",
+      "related_persona_signal": "Interest in going to the gym for weights and cardio."
+    }
+  ],
+  "p2_features": [
+    {
+      "feature": "Low-Pressure Social Challenges",
+      "why_it_matters": "He is a solo player but enjoys football culture; light competition could engage him without requiring heavy social interaction.",
+      "related_persona_signal": "Prefers working/playing alone but follows football closely."
+    }
+  ],
+  "features_to_avoid_for_now": [
+    "Complex meal planning/scheduling",
+    "Heavy social/community-driven features requiring high interaction",
+    "Rigid, long-term training programs",
+    "Extensive administrative/data-entry interfaces"
+  ],
+  "recommended_onboarding_questions": [
+    "Do you prefer following a strict schedule or working out when you feel like it?",
+    "Do you prefer solo workouts or group activities?",
+    "What are your favorite local foods you'd like to track?",
+    "Are you interested in exploring local routes in Ahuachapán?"
+  ],
+  "recommended_retention_features": [
+    "Simple achievement badges (low-friction)",
+    "Quick-view progress summaries",
+    "Notifications for 'short/quick' workout opportunities"
+  ],
+  "recommended_nutrition_features": [
+    "Database of Salvadoran staples (Pupusas, Tamales, etc.)",
+    "Calorie/Macro estimation for common local dishes",
+    "Hydration tracking (focusing on water/coffee/local beverages)"
+  ],
+  "recommended_activity_features": [
+    "GPS tracking for local cycling/running routes",
+    "Weightlifting log with minimal clicks",
+    "Cardio timer for spontaneous sessions"
+  ],
+  "app_tone_recommendation": "Direct, low-friction, and non-intrusive; avoid 'coach-like' pressure; use a casual, urban Salvadoran vibe.",
+  "one_sentence_product_insight": "The app should focus on high-speed, low-commitment tracking of local nutrition and spontaneous physical activity to accommodate a user who avoids routine and complex administrative tasks.",
+  "confidence_notes": "The nutrition profile is highly certain based on the culinary persona; the fitness motivation is inferred from his interest in gym/cycling despite a lack of routine."
+}
